@@ -17,7 +17,7 @@ Below code is used
 
 from nltk import word_tokenize, pos_tag, ne_chunk
  
-sentence = "Mukesh Ambani is CEO of Relaince"
+sentence = "You have to answer this question."
 chunk =  ne_chunk(pos_tag(word_tokenize(sentence)))
 print chunk
 chunk.draw()
